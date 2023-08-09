@@ -1,0 +1,12 @@
+{
+  "extends": "@quasar/app-vite/tsconfig-preset",
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": "."
+  },
+  "references": [
+    {
+      "path": "../backend"
+    }
+  ]
+}
